@@ -5,22 +5,35 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
-  text-align: center;
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  width: 100%;
+  width: 80%;
+  text-align: center;
 }
 
 .container button {
-  width: 5%;
+  width: 10rem;
   border-radius: 2rem;
   padding: 1rem;
   font-size: 1rem;
   font-weight: 600;
   box-shadow: 5px 5px 16px #597081;
   border: none;
+  margin: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+  color: #36494E;
 }
 
 .green {
@@ -46,4 +59,10 @@ body {
 .random {
   color: black;
   background-color: antiquewhite;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
