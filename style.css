@@ -41,19 +41,9 @@
   background-color: green;
 }
 
-.green-clicked{
-  background-color: green;
-  color: #fff;
-}
-
 .blue {
   color: #fff;
   background-color: blue;
-}
-
-.blue-clicked{
-  background-color: blue;
-  color: #fff;
 }
 
 .white {
@@ -61,27 +51,15 @@
   border: 1px solid black;
 }
 
-.white-clicked{
-  background-color: white;
-  color: #000;
-}
-
 .black {
   color: #fff;
   background-color: black;
-}
-
-.black-clicked{
-  background-color: black;
-  color: #fff;
 }
 
 .random {
   color: black;
   background-color: antiquewhite;
 }
-
-/* .random-clicked{} */
 
 button:hover {
   transform: scale(1.05);
